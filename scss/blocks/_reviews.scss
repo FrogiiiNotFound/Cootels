@@ -1,0 +1,55 @@
+.reviews {
+
+    padding: 80px 0px;
+
+    &__container {
+        text-align: center;
+    }
+
+    &__title {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 150%;
+        letter-spacing: -0.01em;
+        text-align: center;
+        color: #192252;
+        margin-bottom: 62px;
+    }
+
+    &__image {
+        margin-bottom: 44px;
+    }
+
+    &__text {
+        font-size: 18px;
+        line-height: 150%;
+        color: #848fac;
+        margin-bottom: 40px;
+    }
+
+    &__author {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        text-align: center;
+        color: #192252;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 528px) {
+    .reviews {
+        &__title {
+            font-size: 28px;
+        }
+
+        &__text {
+            font-size: 15px;
+        }
+
+        &__author {
+            font-size: 14px;
+        }
+    }
+}
